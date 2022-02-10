@@ -6,30 +6,51 @@ public class StringCompression {
 
 	public static String compression1(String str){
 		// write your code here
-		String ans ="";
-		int i=0;
-		while(i<str.length())
+		StringBuilder sb = new StringBuilder(str.charAt(0)+"");
+		for(int i=1;i<str.length();i++)
 		{
-			int j = i;
-			while(str.charAt(i)==str.charAt(j))
+			char curr = str.charAt(i);
+			char prev = str.charAt(i-1);
+			if(curr!=prev)
 			{
-				j++;
+				sb.append(curr);
 			}
-			i = j;
-			ans += str.charAt(j-1);
 		}
-		return ans;
+		return sb.toString();
 	}
 
 	public static String compression2(String str){
-		// write your code here
-
-		return null;
+		StringBuilder sb = new StringBuilder(str.charAt(0)+"");
+		int count = 1;
+		for(int i=1;i<str.length();i++)
+		{
+			char curr = str.charAt(i);
+			char prev = str.charAt(i-1);
+			if(curr==prev)
+			{
+				count++;
+			}
+			else
+			{
+				if(count>1)
+				{
+					sb.append(count);
+					count =1;
+				}
+				sb.append(curr);
+			}
+			
+		}
+		if(count>1)
+		{
+			sb.append(count);
+		}
+		return sb.toString();
 	}
 	public static void main(String[] args) {
 		Scanner scn = new Scanner(System.in);
 		String str = scn.next();
 		System.out.println(compression1(str));
-		//System.out.println(compression2(str));
+		System.out.println(compression2(str));
 	}
 }
