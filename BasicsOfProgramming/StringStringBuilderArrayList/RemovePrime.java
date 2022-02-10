@@ -1,5 +1,6 @@
 package DSALevel1.BasicsOfProgramming.StringStringBuilderArrayList;
-
+//TC = O(n*squareroot(j))
+//SC = O(1)
 import java.util.ArrayList;
 import java.util.Scanner;
 
