@@ -1,5 +1,6 @@
 package DSALevel1.BasicsOfProgramming.StringStringBuilderArrayList;
-
+//TC = O(n)
+//SC = O(n)
 import java.util.Scanner;
 
 public class ToggleCase {
@@ -12,22 +13,23 @@ public class ToggleCase {
 	}
 	public static String toggleString(String str)
 	{
-		String ans = "";
+		StringBuilder sb = new StringBuilder();
 		for(int i=0;i<str.length();i++)
 		{
 			char ch = str.charAt(i);
-			if(Character.isUpperCase(ch))
+			if(ch>='A' && ch<='Z')
 			{
 				char temp = (char)(ch - 'A' + 'a');
-				ans += temp;
+				sb.append(temp);
 			}
 			else
 			{
 				char temp  = (char)(ch - 'a' + 'A');
-				ans += temp;
+				sb.append(temp);
 			}
 		}
-		return ans;
+		return sb.toString();
 	}
 
 }
+
