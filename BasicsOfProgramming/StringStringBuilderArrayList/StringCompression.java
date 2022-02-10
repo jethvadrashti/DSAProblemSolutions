@@ -1,5 +1,6 @@
 package DSALevel1.BasicsOfProgramming.StringStringBuilderArrayList;
-
+//TC = O(n) n = String length
+//SC = O(n) n = String length
 import java.util.Scanner;
 
 public class StringCompression {
