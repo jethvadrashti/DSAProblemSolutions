@@ -1,5 +1,6 @@
 package DSALevel1.RecursionAndBacktracking.RecursionToArrayList;
-
+//TC = O(3^(n+m))
+//SC = O(1) However we consider recursive stack space usage,then TC = O(n).
 import java.util.ArrayList;
 import java.util.Scanner;
 
