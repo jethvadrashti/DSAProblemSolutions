@@ -1,6 +1,6 @@
 package DSALevel1.RecursionAndBacktracking.RecursionToArray;
 //TC  = O(n)
-//SC = O(n) if we consider recursive stack space / otherwise O(1)
+//SC = O(n) if we consider recursive stack space / otherwise O(1) [Because no extra Space required]
 import java.util.Scanner;
 
 public class LastIndex {
