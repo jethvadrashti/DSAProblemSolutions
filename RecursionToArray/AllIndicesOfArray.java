@@ -1,6 +1,6 @@
 package DSALevel1.RecursionAndBacktracking.RecursionToArray;
 //TC  = O(n)
-//SC = O(n) if we consider recursive stack space and also index array space.
+//SC = O(n) because of return index array required space as well as if we consider recursive stack space
 import java.util.Scanner;
 
 public class AllIndicesOfArray {
