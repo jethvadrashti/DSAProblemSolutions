@@ -1,5 +1,5 @@
 package DSALevel1.RecursionAndBacktracking.RecursionOnTheWayUp;
-//TC = O(2^n*m) n = no of rows & m = no f columns
+//TC = O(2^(n+m)) n = no of rows & m = no f columns
 //SC = O(1) 
 import java.util.Scanner;
 
