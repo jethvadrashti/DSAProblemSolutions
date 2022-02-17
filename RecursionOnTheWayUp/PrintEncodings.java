@@ -1,5 +1,6 @@
 package DSALevel1.RecursionAndBacktracking.RecursionOnTheWayUp;
-
+//TC = O(2^n) Where n = Length of String
+//SC = O(1) but if consider recursion stack space then, O(n).
 import java.util.Scanner;
 
 public class PrintEncodings {
