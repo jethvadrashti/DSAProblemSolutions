@@ -1,5 +1,6 @@
 package DSALevel1.RecursionAndBacktracking.RecursionOnTheWayUp;
-
+//TC = O(n!)
+//SC = O(1)
 import java.util.Scanner;
 
 public class PrintPermutation {
