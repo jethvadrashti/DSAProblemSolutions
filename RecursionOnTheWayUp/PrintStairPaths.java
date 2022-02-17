@@ -1,5 +1,6 @@
 package DSALevel1.RecursionAndBacktracking.RecursionOnTheWayUp;
-
+//TC = O(3^n)
+//SC = O(1) but if consider recrusion stack space then O(n)
 import java.util.Scanner;
 
 public class PrintStairPaths {
