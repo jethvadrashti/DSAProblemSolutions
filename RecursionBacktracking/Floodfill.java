@@ -1,6 +1,6 @@
 package DSALevel1.RecursionAndBacktracking.RecursionBacktracking;
 //TC = O(4*(n^2))
-//SC = O(n^2)
+//SC = O(n^2) Because Space required for Visited boolean Array
 import java.util.Scanner;
 
 public class Floodfill {
