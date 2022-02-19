@@ -1,5 +1,6 @@
 package DSALevel1.RecursionAndBacktracking.RecursionBacktracking;
-
+//TC = O(2^n)
+//SC = O(1)
 import java.util.Scanner;
 
 public class TargetSumSubset {
