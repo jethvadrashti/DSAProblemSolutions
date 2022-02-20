@@ -1,4 +1,5 @@
 package DSALevel1.RecursionAndBacktracking.RecursionBacktracking;
+//This code is exponential in nature, and it's time complexity will turn out to be O(n!). It is better than the brute force/naive approach which has O(n^n) time complexity.
 //TC = O(n!)
 //SC = O(n) if we consider space used by recursive stack.
 import java.util.Scanner;
