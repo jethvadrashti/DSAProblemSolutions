@@ -1,6 +1,6 @@
 package DSALevel1.RecursionAndBacktracking.RecursionBacktracking;
 //TC = O(8(n^2))
-//SC = O(n) if we consider space used by recursive stack then otherwise no extra space used.
+//SC = O(n*n) if we consider space used by recursive stack then otherwise no extra space used.
 import java.util.Scanner;
 
 public class KnightsTour {
