@@ -1,5 +1,6 @@
 package DSALevel1.RecursionAndBacktracking.RecursionBacktracking;
-
+//TC = O(n!)
+//SC = O(n) if we consider space used by recursive stack.
 import java.util.Scanner;
 
 public class NQueen {
