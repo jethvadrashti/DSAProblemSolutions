@@ -1,6 +1,9 @@
 package DSALevel1.TimeAndSpaceComplexity;
-//TC = O(n*n) = O(n^2)--> For best Case(Already sorted) TC = O(n) & In average & In worst Case(reverse sorted) TC = O(n^2)
+//Worst-case time complexity- O(n2)
+//Best Case time complexity- O(n)
+//Average Case time complexity- O(n2)
 //SC = O(1)
+
 import java.util.Scanner;
 
 public class SelectionSort {
