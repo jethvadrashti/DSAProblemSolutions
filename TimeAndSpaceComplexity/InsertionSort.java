@@ -1,5 +1,8 @@
 package DSALevel1.TimeAndSpaceComplexity;
-
+//Worst-case time complexity- O(n2)
+//Best Case time complexity- O(n)
+//Average Case time complexity- O(n2)
+//SC = O(1)
 /*
 Which sorting algorithm is parsimonious?
 A sorting algorithm is parsimonious if it never compares the same pair of input values twice.
