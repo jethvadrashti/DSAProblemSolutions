@@ -1,6 +1,11 @@
 package DSALevel1.TimeAndSpaceComplexity;
 
 import java.util.Scanner;
+/*
+Which sorting algorithm is parsimonious?
+A sorting algorithm is parsimonious if it never compares the same pair of input values twice.
+For example, insertion sort, top-down mergesort, and quicksort are parsimonious sorting algorithms.
+*/
 
 /*
 Applications of merge sort
