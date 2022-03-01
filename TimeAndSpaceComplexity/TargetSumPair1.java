@@ -1,5 +1,6 @@
 package DSALevel1.TimeAndSpaceComplexity;
-
+//TC = O(nlogn) if array is already sorted,then TC = O(n)
+//SC = O(1)
 import java.util.Scanner;
 
 public class TargetSumPair1 {
