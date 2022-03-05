@@ -1,6 +1,6 @@
 package DSALevel1.TimeAndSpaceComplexity;
-//TC = O(n+k) k = range n = no of Element in Arrays
-//SC = O(n+k)
+//TC = O(n+k) k = range n = no of Element in Arrays --> True for Average,best and worst all cases
+//SC = O(n+k) --> True for Average,best and worst all cases
 /*
  When we use this algorithm for sort arrays?
  when the no of elements in arrays are higher ans the range value is less at that time count sort algorithm is the best for sorting array.
