@@ -1,7 +1,7 @@
 package DSALevel1.TimeAndSpaceComplexity;
-//Worst-case time complexity- O(n2)
-//Best Case time complexity- O(n)
-//Average Case time complexity- O(n2)
+//Worst-case time complexity- O(n^2)
+//Best Case time complexity- O(n^2)
+//Average Case time complexity- O(n^2)
 //SC = O(1)
 
 import java.util.Scanner;
