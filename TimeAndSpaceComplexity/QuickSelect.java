@@ -1,5 +1,11 @@
 package DSALevel1.TimeAndSpaceComplexity;
+/*
+https://www.codingninjas.com/blog/2021/08/30/understanding-quicksort/
 
+Best case => TC = O(nlogn) SC = O(1)
+Average Case => TC = O(nlogn) SC = O(1)
+Worst Case => TC = O(n^2)  SC = O(1)
+ */
 import java.util.Scanner;
 
 public class QuickSelect {
