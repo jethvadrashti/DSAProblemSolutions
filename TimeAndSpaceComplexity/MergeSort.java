@@ -21,7 +21,7 @@ Merge sort is not efficient for sorting input of large size if you are having lo
 Merge sort while sorting the array goes through the entire process even if the array is sorted.
 Merge sort takes an extra space of O(n) in standard(Outplace) implementation.
 */
-//Best case, Worst Case, Average Case => TC = O(nlogn) SC = O(1)
+//Best case, Worst Case, Average Case => TC = O(nlogn) SC = O(n)
 //TC  = O(nlogn)
 //SC  = O(n)
 public class MergeSort {
