@@ -1,5 +1,5 @@
 package DSALevel1.TimeAndSpaceComplexity;
-//TC = O(bn) = 3n because 3 time call to countSort(). That's why O(n)
+//TC = O(bn) = 3n because 3 time call to countSort().
 //SC = O(n+k) => k = range  n = no. of elements in array
 import java.util.Scanner;
 
