@@ -1,5 +1,5 @@
 package DSALevel1.TimeAndSpaceComplexity;
-//TC = O(b*n)    b = total digits of max element in array  n = total no of element in input array
+//Best,Average,Worst Case all =>TC = O(b*n)    b = total digits of max element in array  n = total no of element in input array
 //SC = O(b+n)    b = frequency array space  n = total no of element in input array
 
 /*
