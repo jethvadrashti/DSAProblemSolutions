@@ -1,5 +1,6 @@
 package DSALevel1.StackAndQueue;
-
+//TC = O(n)
+//SC = O(1)
 import java.util.Scanner;
 import java.util.Stack;
 
