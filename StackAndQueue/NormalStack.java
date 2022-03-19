@@ -1,5 +1,9 @@
 package DSALevel1.StackAndQueue;
-
+//PUSH  => TC = O(1)  SC = O(1)
+//POP   => TC = O(1)  SC = O(1)
+//SIZE  => TC = O(1)  SC = O(1)
+//TOP   => TC = O(1)  SC = O(1)
+//DISPLAY=>TC = O(n)  SC = O(1)
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -16,9 +20,6 @@ public class NormalStack {
 			data = new int[cap];
 		    tos = -1;
 		}
-		//PUSH
-		//TC = O(1)
-		//SC = O(1)
 		void push(int val)
 		{
 			if(tos==data.length-1)
@@ -31,9 +32,6 @@ public class NormalStack {
 				data[tos] = val;
 			}
 		}
-		//Display
-		//TC = O(n)
-		//SC = O(1)
 		void display()
 		{
 			for(int i=tos;i>=0;i--)
@@ -42,16 +40,10 @@ public class NormalStack {
 			}
 			System.out.println();
 		}
-		//Size
-		//TC = O(1)
-		//SC = O(1)
 		int size()
 		{
 			return tos + 1;
 		}
-		//POP
-		//TC = O(1)
-		//SC = O(1)
 		int pop()
 		{
 			if(tos==-1)
@@ -67,9 +59,6 @@ public class NormalStack {
 			}
 		
 		}
-		//TOP
-		//TC = O(1)
-		//SC = O(1)
 		int top()
 		{
 			if(tos==-1)
