@@ -1,5 +1,6 @@
 package DSALevel1.StackAndQueue;
-
+//TC = O(1)
+//SC = O(n)
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.Stack;
