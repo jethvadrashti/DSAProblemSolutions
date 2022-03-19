@@ -1,5 +1,9 @@
 package DSALevel1.StackAndQueue;
-
+//PUSH  => TC = O(n)  SC = O(n)
+//POP   => TC = O(1)  SC = O(1)
+//SIZE  => TC = O(1)  SC = O(1)
+//TOP   => TC = O(1)  SC = O(1)
+//DISPLAY=>TC = O(n)  SC = O(1)
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
