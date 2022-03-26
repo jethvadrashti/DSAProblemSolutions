@@ -32,35 +32,179 @@ public class RemoveAtLastInIndex {
 		}
 		public void addLast(int val)
 		{
+			Node temp = new Node();
+			temp.data = val;
+			temp.next = null;
 			
+			if(size==0)
+			{
+				head = tail = temp;
+			}
+			else
+			{
+				Node t = head;
+				while(t.next!=null)
+				{
+					t = t.next;
+				}
+				t.next = temp;
+				tail = temp;
+			}
+			size++;
 		}
 		public void addAt(int idx,int val)
 		{
-			
+			Node temp = new Node();
+			temp.data = val;
+			temp.next = null;
+			if(idx<0 || idx>size)
+			{
+				System.out.println("Invalid arguments");
+			}
+			else if(idx==0)
+			{
+				addFirst(val);
+			}
+			else if(idx==size)
+			{
+				addLast(val);
+			}
+			else
+			{
+				Node t = head;
+				for(int i=0;i<idx-1;i++)
+				{
+					t = t.next;
+				}
+				temp.next = t.next;
+				t.next = temp;
+				size++;
+			}
 		}
 		public int getFirst()
 		{
-			
+			if(size==0)
+			{
+				System.out.println("List is empty");
+				return-1;
+			}
+			else
+			{
+				return head.data;
+			}
 		}
 		public int getLast()
 		{
-			
+			if(size==0)
+			{
+				System.out.println("List is empty");
+				return-1;
+			}
+			else
+			{
+				return tail.data;
+			}
 		}
 		public int getAt(int idx)
 		{
-			
+			if(size==0)
+			{
+				System.out.println("List is empty");
+				return-1;
+			}
+			else if(idx<0 || idx>=size)
+			{
+				System.out.println("Invalid arguments");
+				return -1;
+			}
+			else if(idx==0)
+			{
+				int ans = getFirst();
+				return ans;
+			}
+			else if(idx==size-1)
+			{
+				int ans = getLast();
+				return ans;
+			}
+			else
+			{
+				Node t = head;
+				for(int i=0;i<idx;i++)
+				{
+					t = t.next;
+				}
+				return t.data;
+			}
 		}
 		public void removeFirst()
 		{
-			
+			if(size==0)
+			{
+				System.out.println("List is empty");
+			}
+			else if(size==1)
+			{
+				head = tail = null;
+				size = 0;
+			}
+			else
+			{
+				head = head.next;
+				size--;
+			}	
 		}
 		public void removeLast()
 		{
-		
+			if(size==0)
+			{
+				System.out.println("List is empty");
+			}
+			else if(size==1)
+			{
+				head = tail = null;
+				size = 0;
+			}
+			else
+			{
+				Node t = head;
+				for(int i=0;i<size-2;i++)
+				{
+					t = t.next;
+				}
+				t.next = null;
+				tail = t;
+				size--;
+			}
 		}
 		public void removeAt(int idx)
 		{
-			
+			if(size==0)
+			{
+				System.out.println("List is empty");
+			}
+			else if(idx<0 || idx>=size)
+			{
+				System.out.println("Invalid arguments");
+			} 
+			else if(idx==0)
+			{
+				removeFirst();
+			}
+			else if(idx==size-1)
+			{
+				removeLast();
+			}
+			else
+			{
+				Node t= head;
+				for(int i=0;i<idx-1;i++)
+				{
+					t = t.next;
+				}
+				t.next = t.next.next;
+				size--;
+			}
 		}
 		public void display()
 		{
