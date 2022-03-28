@@ -1,7 +1,8 @@
 package DSALevel1.LinkedList;
 
 import java.util.LinkedList;
-
+//TC = O(1) for all the Method of all,remove and get in LinkedList.
+//SC = O(1) for all the Method of all,remove and get in LinkedList.
 public class LinkedListDemo {
 
 	public static void main(String[] args) {
