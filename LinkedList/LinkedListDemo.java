@@ -67,6 +67,9 @@ public class LinkedListDemo {
 		System.out.println("List3" + " ----->" + list3.getLast());
 		
 		System.out.println(list.getClass());
+		
+		//list3.size();
+		System.out.println(list3.size());
 	}
 
 }
