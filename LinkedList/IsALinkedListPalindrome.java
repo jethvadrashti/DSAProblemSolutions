@@ -1,5 +1,6 @@
 package DSALevel1.LinkedList;
-
+//TC = O(n)
+//SC = O(1) if consider recursive stack space then TC = O(n)
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
