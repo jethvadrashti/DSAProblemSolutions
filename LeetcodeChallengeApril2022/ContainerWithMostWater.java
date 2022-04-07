@@ -1,5 +1,6 @@
 package LeetcodeChallengeApril2022;
-
+//TC = O(n)
+//SC = O(1)
 import java.util.Scanner;
 
 public class ContainerWithMostWater {
