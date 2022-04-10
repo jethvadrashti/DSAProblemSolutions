@@ -1,5 +1,5 @@
 package DSALevel1.RecursionAndBacktracking.IntrodutionToRecursion;
-//TC = O(n)
+//TC = O(n^2)
 //SC = O(1)
 import java.util.Scanner;
 
