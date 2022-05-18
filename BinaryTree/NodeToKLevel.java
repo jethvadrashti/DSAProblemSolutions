@@ -1,6 +1,6 @@
 package BinaryTree;
 //TC = O(n)
-//SC = O(n)
+//SC = O(h) where h = height of tree
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.*;
