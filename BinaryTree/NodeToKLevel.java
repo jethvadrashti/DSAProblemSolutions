@@ -1,5 +1,6 @@
 package BinaryTree;
-
+//TC = O(n)
+//SC = O(n)
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.*;
